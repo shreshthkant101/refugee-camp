@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+    height: fit-content;
+}
+
+body {
+    background: #151515;
+}
+
+#topbar {
+    box-sizing: border-box;
+    z-index: 6000;
+    background: #181818;
+    height: 35px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #2e2e2e;
+    border-top: 0;
+    padding-right: 4px;
+    min-height: 35px;
+    top: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#topleft {
+    float: left;
+    padding: 0px 25px 0px 5px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 200px;
+    height: 30px;
+    color: white;
+}
+
+#topright {
+    float: right;
+    min-width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+#topleft a {
+    cursor: pointer;
+}
+
+.barbutton {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid #2e2e2e;
+    border-bottom-left-radius: 5px;
+    padding: 7px 8px;
+    color: white;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.barbutton:hover {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid #474747;
+    background: #474747;
+    border-bottom-left-radius: 5px;
+    padding: 7px 8px;
+    color: white;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#interactbar {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#addcommentbutton {
+    margin-top: 97px;
+}
+
+.basicbutton {
+    color: white;
+    font-weight: bold;
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    width: 115px;
+    height: 25px;
+    font-size: 14px;
+    padding: 1px 2px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.basicbutton:hover {
+    font-weight: bold;
+    border-left: 1px solid #474747;
+    background: #474747;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 1px 2px;
+    margin-top: 13px;
+    color: white;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+    min-width: 200px;
+    border-left: 1px solid #2e2e2e;
+    padding-left: 6px;
+    right: 1px;
+    left: 1px;
+}
+
+.right {
+    float: right;
+    min-width: 100px;
+    border-right: 1px solid #2e2e2e;
+    padding-right: 6px;
+    right: 1px;
+    left: 1px;
+}
+
+.middle {
+    text-align: center;
+    min-width: 100px;
+}
+
+.introtext {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: auto;
+    padding-top: 50px;
+}
+
+.loweredge {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #2e2e2e;
+    border-top: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 99999999;
+}
